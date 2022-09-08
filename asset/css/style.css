@@ -1,0 +1,41 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header a{
+    text-decoration: none;
+}
+a{
+    color: #212529;
+    font-size: large;
+    padding-right: 40px;
+}
+.header-all i{
+    padding-right: 10px;
+}
+@media(max-width:576px){
+    nav a,nav span{
+        display: none;
+    }
+    nav i{
+        display: none !important;
+    }
+    #menu{
+        display: block !important;
+    }
+    #Gallery .top .left{
+        display: none;
+    }
+}
+#slider{
+    padding: 12rem 0;
+    background-image: url(..//image/shop-14-img.jpg);
+    background-position: 1032px 59px;
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-color: #f6f6f6;
+    overflow: hidden;
+}
+
+
