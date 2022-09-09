@@ -11,9 +11,15 @@ a{
     font-size: large;
     padding-right: 40px;
 }
+header{
+    padding: 2rem 0;
+}
 .header-all i{
     padding-right: 10px;
 }
+
+
+
 @media(max-width:576px){
     nav a,nav span{
         display: none;
@@ -30,12 +36,35 @@ a{
 }
 #slider{
     padding: 12rem 0;
-    background-image: url(..//image/shop-14-img.jpg);
-    background-position: 1032px 59px;
-    background-size: 700px;
-    background-repeat: no-repeat;
-    background-color: #f6f6f6;
-    overflow: hidden;
+    background-image: url(..//image/h3-slider-background.jpg);
+    background-position: center;
+    background-size: cover;
+   
 }
-
-
+.galery-bar a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.endirim{
+    text-decoration: line-through;
+}
+.box span{
+    opacity: 0.5;
+}
+.top-box img{
+    transition: .5s;
+   
+}
+.top-box:hover img{
+    transform: scale(1.1);
+    
+}
+.all-galery .box .top-box img{
+    width: 100%;
+}
+.bot-box p{
+    font-size: 12px;
+}
+.bot-box span{
+    font-size: 12px;
+}
