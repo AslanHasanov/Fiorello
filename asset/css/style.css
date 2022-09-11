@@ -68,3 +68,108 @@ header{
 .bot-box span{
     font-size: 12px;
 }
+#Fragman .left img{
+    width: 100%;
+    transition: .7s;
+}
+.video-content{
+padding-left: 3rem;
+}
+#Fragman .video-content h2{
+    font-size: 38px;
+    padding-right: 9rem;
+    color: #2b2b2b;
+    opacity: .9;
+}
+#Fragman .video-content p{
+    color: #2b2b2b;
+    padding-right: 9rem;
+    opacity: .9;
+    color: #6d6a6a;
+}
+#Fragman{
+    padding: 6rem;
+    background-color: #F7F7F7;
+}
+#Fragman .left{
+    position: relative;
+    overflow: hidden;
+}
+.play-video a{
+    position: absolute;
+    padding: 40px 50px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    top: 38%;
+    left: 41%;
+    text-align: center;
+}
+#Fragman .left:hover img{
+    transform: scale(1.1);
+}
+#Experts{
+    padding: 8rem 0;
+}
+.expert-content h2{
+font-size: 38px;
+color: #2b2b2b;
+}
+.expert-content p{
+font-size: 17px;
+color: #6d6a6a;
+opacity: 0.9;
+}
+.humans h6{
+    padding-top: 1rem;
+    font-size: 12px;
+}
+.humans span{
+    font-size: 13px;
+    opacity: .8;
+}
+.humans{
+    padding-top: 2rem;
+}
+#Join h1{
+   color: #ffffff;
+   font-size: 30px;
+}
+#Join input{
+  width: 27%;
+  padding: 1% 0;
+   border: 1px solid transparent;
+}
+#Join button{
+    padding: 1rem 3rem;
+    background-color: #FF3D2A;
+    border: 1px solid transparent;
+
+}
+.join-inp{
+    background-image: url(..//image/h3-background-img.jpg);
+    background-position: 50% -28px;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10rem 0;
+}
+
+.blog-content h2{
+font-size: 38px;
+}
+.blog-content p{
+font-size: 17px;
+    opacity: .8;
+    padding: 0 30%;
+}
+.all-blogs .blog img{
+    width: 100%;
+}
+.all-blogs .blog p{
+    font-size: 15px;
+    opacity: .8;
+    padding: 0 10px;
+}
+.all-blogs .blog h4{
+    font-size: 22px;
+    padding-top: 1rem;
+}
