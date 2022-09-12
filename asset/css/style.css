@@ -78,6 +78,9 @@ border-radius: 10px;
     #Gallery .top .left{
         display: none;
     }
+    .galery-bar{
+        display: none;
+    }
 }
 #slider{
     padding: 12rem 0;
@@ -273,15 +276,18 @@ font-size: 17px;
     font-size: 12px;
 }
 #Info p{
+    color: #4b4747;
+    font-family: Lora,serif;
+    font-style: italic;
     font-size: 24px;
-    padding: 0 23rem;
+    line-height: 1.5em;
 }
 #Last{
     background-color: #FEFAF3;
     padding: 10rem 0 2rem;
 }
 #Last .text-all a{
-    display: inline-block;
+    
     text-decoration: none;
     font-size: 12px;
     color: #8b8b8b;
@@ -299,4 +305,8 @@ font-size: 17px;
 }
 #Last a{
     font-size: 10px;
+}
+.text-all .box a{
+    display: flex;
+    flex-direction: column;
 }
