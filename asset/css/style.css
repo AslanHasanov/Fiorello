@@ -53,11 +53,32 @@ header{
 }
 .top-box img{
     transition: .5s;
-   
+}
+.top-box{
+    position: relative;
+}
+ #sold{
+    background-color: #2b2b2b;
+    color: #ffffff;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    padding: 6px 20px;
+    font-size: 16px;
+    opacity: 1;
+}
+#sale{
+    background-color: #ffffff;
+    color: #2b2b2b;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    padding: 6px 20px;
+    font-size: 16px;
+    opacity: 1;
 }
 .top-box:hover img{
     transform: scale(1.1);
-    
 }
 .all-galery .box .top-box img{
     width: 100%;
@@ -168,7 +189,7 @@ font-size: 17px;
 #Blog .blog-top img{
     width: 100%;
     transition: .7s !important;
-    position: relative;
+    
 }
 .all-blogs .blog p{
     font-size: 15px;
@@ -181,6 +202,7 @@ font-size: 17px;
 }
 #Blog .blog-top{
     overflow: hidden;
+    position: relative;
 }
 #Blog .blog-top img:hover {
     transform: scale(1.1) !important;
@@ -188,9 +210,10 @@ font-size: 17px;
 #Blog .blog-top a{
     background-color: #F7F7F7;
     position: absolute;
-    left: 5px;
-    top: 5px;
-    padding: 3px 10px;
+    left: 8px;
+    top: 8px;
+    padding: 10px 30px;
+    font-size: 10px;
 }
 .h-text span{
     display: block;
