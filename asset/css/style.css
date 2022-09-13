@@ -81,6 +81,11 @@ border-radius: 10px;
     .galery-bar{
         display: none;
     }
+    .last-bot{
+        display: flex;
+        text-align: center;
+    }
+    
 }
 #slider{
     padding: 12rem 0;
@@ -142,37 +147,44 @@ border-radius: 10px;
     transition: .7s;
 }
 .video-content{
-padding-left: 3rem;
 }
 #Fragman .video-content h2{
     font-size: 38px;
-    padding-right: 9rem;
+
     color: #2b2b2b;
     opacity: .9;
 }
 #Fragman .video-content p{
     color: #2b2b2b;
-    padding-right: 9rem;
+    
     opacity: .9;
     color: #6d6a6a;
 }
 #Fragman{
-    padding: 6rem;
+    padding: 6rem 0 ;
     background-color: #F7F7F7;
 }
 #Fragman .left{
-    position: relative;
+    position: relative !important;
     overflow: hidden;
 }
-.play-video a{
+
+.play-video {
     position: absolute;
-    padding: 40px 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+   
+    
+}
+.play-video a{
+    padding: 30px 40px;
     border-radius: 100%;
     background-color: #ffffff;
-    top: 38%;
-    left: 41%;
     text-align: center;
+  
 }
+
 #Fragman .left:hover img{
     transform: scale(1.1);
 }
@@ -266,11 +278,12 @@ font-size: 17px;
 .h-text span{
     display: block;
 }
+
 .h-photo img{
-    width: 5%;
+margin-bottom: 2rem;
 }
 #Info{
-    padding: 9rem; 
+    padding: 9rem 5rem ; 
 }
 #Info span{
     font-size: 12px;
@@ -299,6 +312,7 @@ font-size: 17px;
 }
 .last-bot{
    margin-top: 8rem; 
+   ;
 }
 #Last p{
     font-size: 12px;
